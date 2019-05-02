@@ -1,0 +1,13 @@
+﻿{
+  "Emailer": {
+    "login": {
+      "emailAddress": "teamblackpinktester@gmail.com",
+      "password": "TeamBlackp1nk!"
+    },
+    "recipients": [
+      {
+        "emailAddress": "teamblackpinktester@gmail.com"
+      }
+    ]
+  }
+}

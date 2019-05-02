@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.572
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Keylobby.API", "Keylobby.API\Keylobby.API.csproj", "{CCA60258-3419-4903-8049-BE040EBF3A72}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Identity", "Identity", "{0329D5DE-D3C0-47B6-B592-AC4F53B6092E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Keylobby.API.Identity.BusinessLogicLayer", "Keylobby.API.Identity.BusinessLogicLayer\Keylobby.API.Identity.BusinessLogicLayer.csproj", "{2B7985EC-3887-4718-93CB-6A96F52D7716}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Keylobby.API.Identity.DataAccessLayer", "Keylobby.API.Identity.DataAccessLayer\Keylobby.API.Identity.DataAccessLayer.csproj", "{7AFA6722-721C-449D-9066-4AC1184128FF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Keylobby.API.DataAccessLayer", "Keylobby.API.DataAccessLayer\Keylobby.API.DataAccessLayer.csproj", "{C0B91E65-2A02-476F-85CA-87802C3C0A20}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CCA60258-3419-4903-8049-BE040EBF3A72}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CCA60258-3419-4903-8049-BE040EBF3A72}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CCA60258-3419-4903-8049-BE040EBF3A72}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CCA60258-3419-4903-8049-BE040EBF3A72}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2B7985EC-3887-4718-93CB-6A96F52D7716}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2B7985EC-3887-4718-93CB-6A96F52D7716}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2B7985EC-3887-4718-93CB-6A96F52D7716}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2B7985EC-3887-4718-93CB-6A96F52D7716}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7AFA6722-721C-449D-9066-4AC1184128FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7AFA6722-721C-449D-9066-4AC1184128FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7AFA6722-721C-449D-9066-4AC1184128FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7AFA6722-721C-449D-9066-4AC1184128FF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C0B91E65-2A02-476F-85CA-87802C3C0A20}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C0B91E65-2A02-476F-85CA-87802C3C0A20}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C0B91E65-2A02-476F-85CA-87802C3C0A20}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C0B91E65-2A02-476F-85CA-87802C3C0A20}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{2B7985EC-3887-4718-93CB-6A96F52D7716} = {0329D5DE-D3C0-47B6-B592-AC4F53B6092E}
+		{7AFA6722-721C-449D-9066-4AC1184128FF} = {0329D5DE-D3C0-47B6-B592-AC4F53B6092E}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4DABFB70-F6A1-4B3C-9EA4-34DAA27BD787}
+	EndGlobalSection
+EndGlobal
