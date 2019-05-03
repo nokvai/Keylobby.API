@@ -1,0 +1,6 @@
+C:\Users\Benjamin\Desktop\Keylobby.API\Keylobby.API\obj\Release\netcoreapp2.2\Keylobby.API.csprojAssemblyReference.cache
+C:\Users\Benjamin\Desktop\Keylobby.API\Keylobby.API\obj\Release\netcoreapp2.2\Keylobby.API.csproj.CoreCompileInputs.cache
+C:\Users\Benjamin\Desktop\Keylobby.API\Keylobby.API\obj\Release\netcoreapp2.2\Keylobby.API.RazorAssemblyInfo.cache
+C:\Users\Benjamin\Desktop\Keylobby.API\Keylobby.API\obj\Release\netcoreapp2.2\Keylobby.API.RazorAssemblyInfo.cs
+C:\Users\Benjamin\Desktop\Keylobby.API\Keylobby.API\obj\Release\netcoreapp2.2\Keylobby.API.AssemblyInfoInputs.cache
+C:\Users\Benjamin\Desktop\Keylobby.API\Keylobby.API\obj\Release\netcoreapp2.2\Keylobby.API.AssemblyInfo.cs

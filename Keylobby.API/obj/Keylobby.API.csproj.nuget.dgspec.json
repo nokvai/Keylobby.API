@@ -1,0 +1,249 @@
+{
+  "format": 1,
+  "restore": {
+    "c:\\PARTBNB\\Keylobby.API\\Keylobby.API\\Keylobby.API.csproj": {}
+  },
+  "projects": {
+    "c:\\PARTBNB\\Keylobby.API\\Keylobby.API.DataAccessLayer\\Keylobby.API.DataAccessLayer.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "c:\\PARTBNB\\Keylobby.API\\Keylobby.API.DataAccessLayer\\Keylobby.API.DataAccessLayer.csproj",
+        "projectName": "Keylobby.API.DataAccessLayer",
+        "projectPath": "c:\\PARTBNB\\Keylobby.API\\Keylobby.API.DataAccessLayer\\Keylobby.API.DataAccessLayer.csproj",
+        "packagesPath": "C:\\Users\\Benjamin\\.nuget\\packages\\",
+        "outputPath": "c:\\PARTBNB\\Keylobby.API\\Keylobby.API.DataAccessLayer\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Benjamin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.telerik.com/nuget": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "c:\\PARTBNB\\Keylobby.API\\Keylobby.API.Identity.BusinessLogicLayer\\Keylobby.API.Identity.BusinessLogicLayer.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "c:\\PARTBNB\\Keylobby.API\\Keylobby.API.Identity.BusinessLogicLayer\\Keylobby.API.Identity.BusinessLogicLayer.csproj",
+        "projectName": "Keylobby.API.Identity.BusinessLogicLayer",
+        "projectPath": "c:\\PARTBNB\\Keylobby.API\\Keylobby.API.Identity.BusinessLogicLayer\\Keylobby.API.Identity.BusinessLogicLayer.csproj",
+        "packagesPath": "C:\\Users\\Benjamin\\.nuget\\packages\\",
+        "outputPath": "c:\\PARTBNB\\Keylobby.API\\Keylobby.API.Identity.BusinessLogicLayer\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Benjamin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.telerik.com/nuget": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {
+              "c:\\PARTBNB\\Keylobby.API\\Keylobby.API.DataAccessLayer\\Keylobby.API.DataAccessLayer.csproj": {
+                "projectPath": "c:\\PARTBNB\\Keylobby.API\\Keylobby.API.DataAccessLayer\\Keylobby.API.DataAccessLayer.csproj"
+              },
+              "c:\\PARTBNB\\Keylobby.API\\Keylobby.API.Identity.DataAccessLayer\\Keylobby.API.Identity.DataAccessLayer.csproj": {
+                "projectPath": "c:\\PARTBNB\\Keylobby.API\\Keylobby.API.Identity.DataAccessLayer\\Keylobby.API.Identity.DataAccessLayer.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "c:\\PARTBNB\\Keylobby.API\\Keylobby.API.Identity.DataAccessLayer\\Keylobby.API.Identity.DataAccessLayer.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "c:\\PARTBNB\\Keylobby.API\\Keylobby.API.Identity.DataAccessLayer\\Keylobby.API.Identity.DataAccessLayer.csproj",
+        "projectName": "Keylobby.API.Identity.DataAccessLayer",
+        "projectPath": "c:\\PARTBNB\\Keylobby.API\\Keylobby.API.Identity.DataAccessLayer\\Keylobby.API.Identity.DataAccessLayer.csproj",
+        "packagesPath": "C:\\Users\\Benjamin\\.nuget\\packages\\",
+        "outputPath": "c:\\PARTBNB\\Keylobby.API\\Keylobby.API.Identity.DataAccessLayer\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Benjamin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.telerik.com/nuget": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "c:\\PARTBNB\\Keylobby.API\\Keylobby.API\\Keylobby.API.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "c:\\PARTBNB\\Keylobby.API\\Keylobby.API\\Keylobby.API.csproj",
+        "projectName": "Keylobby.API",
+        "projectPath": "c:\\PARTBNB\\Keylobby.API\\Keylobby.API\\Keylobby.API.csproj",
+        "packagesPath": "C:\\Users\\Benjamin\\.nuget\\packages\\",
+        "outputPath": "c:\\PARTBNB\\Keylobby.API\\Keylobby.API\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Benjamin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.telerik.com/nuget": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {
+              "c:\\PARTBNB\\Keylobby.API\\Keylobby.API.DataAccessLayer\\Keylobby.API.DataAccessLayer.csproj": {
+                "projectPath": "c:\\PARTBNB\\Keylobby.API\\Keylobby.API.DataAccessLayer\\Keylobby.API.DataAccessLayer.csproj"
+              },
+              "c:\\PARTBNB\\Keylobby.API\\Keylobby.API.Identity.BusinessLogicLayer\\Keylobby.API.Identity.BusinessLogicLayer.csproj": {
+                "projectPath": "c:\\PARTBNB\\Keylobby.API\\Keylobby.API.Identity.BusinessLogicLayer\\Keylobby.API.Identity.BusinessLogicLayer.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.AspNetCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            },
+            "Microsoft.AspNetCore.Razor.Design": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[2.2.3, )"
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    }
+  }
+}

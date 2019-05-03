@@ -1,0 +1,11 @@
+C:\Users\Benjamin\Desktop\Keylobby.API\Keylobby.API.Identity.DataAccessLayer\bin\Debug\netcoreapp2.2\Keylobby.API.Identity.DataAccessLayer.deps.json
+C:\Users\Benjamin\Desktop\Keylobby.API\Keylobby.API.Identity.DataAccessLayer\bin\Debug\netcoreapp2.2\Keylobby.API.Identity.DataAccessLayer.dll
+C:\Users\Benjamin\Desktop\Keylobby.API\Keylobby.API.Identity.DataAccessLayer\bin\Debug\netcoreapp2.2\Keylobby.API.Identity.DataAccessLayer.pdb
+C:\Users\Benjamin\Desktop\Keylobby.API\Keylobby.API.Identity.DataAccessLayer\obj\Debug\netcoreapp2.2\Keylobby.API.Identity.DataAccessLayer.csproj.CoreCompileInputs.cache
+C:\Users\Benjamin\Desktop\Keylobby.API\Keylobby.API.Identity.DataAccessLayer\obj\Debug\netcoreapp2.2\Keylobby.API.Identity.DataAccessLayer.AssemblyInfoInputs.cache
+C:\Users\Benjamin\Desktop\Keylobby.API\Keylobby.API.Identity.DataAccessLayer\obj\Debug\netcoreapp2.2\Keylobby.API.Identity.DataAccessLayer.AssemblyInfo.cs
+C:\Users\Benjamin\Desktop\Keylobby.API\Keylobby.API.Identity.DataAccessLayer\obj\Debug\netcoreapp2.2\Keylobby.API.Identity.DataAccessLayer.dll
+C:\Users\Benjamin\Desktop\Keylobby.API\Keylobby.API.Identity.DataAccessLayer\obj\Debug\netcoreapp2.2\Keylobby.API.Identity.DataAccessLayer.pdb
+C:\Users\Benjamin\Desktop\Keylobby.API\Keylobby.API.Identity.DataAccessLayer\bin\Debug\netcoreapp2.2\Newtonsoft.Json.dll
+C:\Users\Benjamin\Desktop\Keylobby.API\Keylobby.API.Identity.DataAccessLayer\bin\Debug\netcoreapp2.2\Newtonsoft.Json.xml
+C:\Users\Benjamin\Desktop\Keylobby.API\Keylobby.API.Identity.DataAccessLayer\obj\Debug\netcoreapp2.2\Keylobby.API.Identity.DataAccessLayer.csproj.CopyComplete

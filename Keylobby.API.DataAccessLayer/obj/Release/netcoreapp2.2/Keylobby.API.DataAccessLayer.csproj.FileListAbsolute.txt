@@ -1,0 +1,9 @@
+C:\Users\Benjamin\Desktop\Keylobby.API\Keylobby.API.DataAccessLayer\bin\Release\netcoreapp2.2\Keylobby.API.DataAccessLayer.deps.json
+C:\Users\Benjamin\Desktop\Keylobby.API\Keylobby.API.DataAccessLayer\bin\Release\netcoreapp2.2\Keylobby.API.DataAccessLayer.dll
+C:\Users\Benjamin\Desktop\Keylobby.API\Keylobby.API.DataAccessLayer\bin\Release\netcoreapp2.2\Keylobby.API.DataAccessLayer.pdb
+C:\Users\Benjamin\Desktop\Keylobby.API\Keylobby.API.DataAccessLayer\obj\Release\netcoreapp2.2\Keylobby.API.DataAccessLayer.csprojAssemblyReference.cache
+C:\Users\Benjamin\Desktop\Keylobby.API\Keylobby.API.DataAccessLayer\obj\Release\netcoreapp2.2\Keylobby.API.DataAccessLayer.csproj.CoreCompileInputs.cache
+C:\Users\Benjamin\Desktop\Keylobby.API\Keylobby.API.DataAccessLayer\obj\Release\netcoreapp2.2\Keylobby.API.DataAccessLayer.AssemblyInfoInputs.cache
+C:\Users\Benjamin\Desktop\Keylobby.API\Keylobby.API.DataAccessLayer\obj\Release\netcoreapp2.2\Keylobby.API.DataAccessLayer.AssemblyInfo.cs
+C:\Users\Benjamin\Desktop\Keylobby.API\Keylobby.API.DataAccessLayer\obj\Release\netcoreapp2.2\Keylobby.API.DataAccessLayer.dll
+C:\Users\Benjamin\Desktop\Keylobby.API\Keylobby.API.DataAccessLayer\obj\Release\netcoreapp2.2\Keylobby.API.DataAccessLayer.pdb
