@@ -21,13 +21,14 @@ namespace Keylobby.API.Controllers.Client
 
         [AllowAnonymous]
         [HttpPost("contact-us")]
-        public async Task<IActionResult> EmailContactUs(string name, string email, string phone, string message)
+       
+        public async Task<IActionResult> EmailContactUs([FromBody] ContactUsModel contact)
         {
             ContactUsModel contactUsObj = new ContactUsModel();
-            contactUsObj.Name = name;
-            contactUsObj.Email = email;
-            contactUsObj.Phone = phone;
-            contactUsObj.Message = message;
+            contactUsObj.Name = contact.Name;
+            contactUsObj.Email = contact.Email;
+            contactUsObj.Phone = contact.Phone;
+            contactUsObj.Message = contact.Message;
             string jsonData = JsonConvert.SerializeObject(contactUsObj);
 
             var result = _iemailSender.SendEmailAsync(jsonData);
