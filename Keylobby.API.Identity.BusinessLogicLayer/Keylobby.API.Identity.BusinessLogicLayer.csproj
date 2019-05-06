@@ -5,6 +5,10 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="NETCore.MailKit" Version="2.0.2" />
+  </ItemGroup>
+
+  <ItemGroup>
     <ProjectReference Include="..\Keylobby.API.DataAccessLayer\Keylobby.API.DataAccessLayer.csproj" />
     <ProjectReference Include="..\Keylobby.API.Identity.DataAccessLayer\Keylobby.API.Identity.DataAccessLayer.csproj" />
   </ItemGroup>

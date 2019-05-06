@@ -4,12 +4,11 @@ using System.Text;
 
 namespace Keylobby.API.Identity.DataAccessLayer.Models
 {
-    public class ResponseModel
+    public class ContactUsModel
     {
-        public int Code { get; set; } = 200;
-
-        public string Status { get; set; }
-
+        public string Name { get; set; }
+        public string Email { get; set; }
+        public string Phone { get; set; }
         public string Message { get; set; }
     }
 }

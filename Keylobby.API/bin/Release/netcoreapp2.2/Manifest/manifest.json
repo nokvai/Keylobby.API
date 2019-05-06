@@ -1,0 +1,26 @@
+{
+  "Info": {
+    "Name": "Blackfin Technology",
+    "Protocol": "https://",
+    "SendEmail": true,
+    "Environment": "#{custom.environment}#"
+  },
+  "Mandrill": {
+    "MandrillUri": "https://mandrillapp.com/api/1.0",
+    "MandrillRegisteredEmail": "team@partbnb.com",
+    "MandrillSendMessageRoute": "/messages/send.json",
+    "MandrillSendMessageWithTemplateRoute": "/messages/send-template.json",
+    "MandrilApiKey": "y_kXQMyyFJXKVvqzoSk8Qw",
+    "MandrilTestApiKey": "bOnq3aB7ZFLYMZQ4frFQSQ",
+    "MandrilConfirmationEmailTemplate": "PartBnb Email Confirmation",
+    "MandrilResetPasswordTemplate": "PartBnB Reset Password",
+    "MandrilResetConfirmationTemplate": "PartBnb Reset Confirmation",
+    "MandrilPreOrderConfirmationTemplate": "PartBnb PreOrder Confirmation",
+    "MandrilEmailVerificationTemplate": "PartBnb Email Verification",
+    "MandrilEmailCornerStoneJoinTemplate": "PartBnb Email CornerStone Club",
+    "MandrilEmailAddFundsSucceeded": "PartBnb Email Add Funds Succeeded",
+    "MandrillEmailSender": "Partbnb Team",
+    "MandrillBccEmailJames": "james@partbnb.com",
+    "MandrillBccEmailTeam": "team@partbnb.com"
+  }
+}

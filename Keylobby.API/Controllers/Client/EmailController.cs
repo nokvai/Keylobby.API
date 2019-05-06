@@ -1,11 +1,10 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
 using System.Threading.Tasks;
 using Keylobby.API.Identity.BusinessLogicLayer.Interface;
+using Keylobby.API.Identity.DataAccessLayer.Models;
 using Microsoft.AspNetCore.Authorization;
-using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using Newtonsoft.Json;
 
 namespace Keylobby.API.Controllers.Client
 {
@@ -13,57 +12,27 @@ namespace Keylobby.API.Controllers.Client
     [ApiController]
     public class EmailController : ControllerBase
     {
-        private readonly IIdentityRepository _identityRepository;
+        private readonly IEmailSender _iemailSender;
 
-        public EmailController(IIdentityRepository identityRepository)
+        public EmailController(IEmailSender iemailSender)
         {
-            _identityRepository = identityRepository;
+            _iemailSender = iemailSender;
         }
-
-        [HttpGet]
-        public ActionResult<IEnumerable<string>> Get()
-        {
-            return new string[] { "value1", "value2" };
-        }
-
-        // GET: api/Email
-        //[HttpGet]
-        //public IEnumerable<string> Get()
-        //{
-        //    return new string[] { "value1", "value2" };
-        //}
-
-        // GET: api/Email/5
-        //[HttpGet("{id}", Name = "Get")]
-        //public string Get(int id)
-        //{
-        //    return "value";
-        //}
-
-        // POST: api/Email
-        //[HttpPost]
-        //public void Post([FromBody] string value)
-        //{
-        //}
-
-        // PUT: api/Email/5
-        //[HttpPut("{id}")]
-        //public void Put(int id, [FromBody] string value)
-        //{
-        //}
-
-        // DELETE: api/ApiWithActions/5
-        //[HttpDelete("{id}")]
-        //public void Delete(int id)
-        //{
-        //}
 
         [AllowAnonymous]
         [HttpPost("contact-us")]
         public async Task<IActionResult> EmailContactUs(string name, string email, string phone, string message)
         {
-            var result = await _identityRepository.EmailContactUs(name, email, phone, message);
-            if (result.Status == "Success")
+            ContactUsModel contactUsObj = new ContactUsModel();
+            contactUsObj.Name = name;
+            contactUsObj.Email = email;
+            contactUsObj.Phone = phone;
+            contactUsObj.Message = message;
+            string jsonData = JsonConvert.SerializeObject(contactUsObj);
+
+            var result = _iemailSender.SendEmailAsync(jsonData);
+
+            if (result.Status == TaskStatus.RanToCompletion)
                 return Ok();
             else
                 return BadRequest();

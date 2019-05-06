@@ -1,0 +1,6 @@
+{
+  "SpaSubDomain": {
+    "Client": "example.com",
+    "Admin": "admin.example.com"
+  }
+}

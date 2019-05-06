@@ -20,9 +20,6 @@
     <Content Update="Manifest\apiLastUpdated.json">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Update="Manifest\emailSettings.json">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
     <Content Update="Manifest\manifest.json">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>

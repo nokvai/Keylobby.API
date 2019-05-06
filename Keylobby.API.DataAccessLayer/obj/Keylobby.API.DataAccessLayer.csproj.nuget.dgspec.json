@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\PARTBNB\\Keylobby.API\\Keylobby.API.DataAccessLayer\\Keylobby.API.DataAccessLayer.csproj": {}
+    "C:\\PARTBNB\\Keylobby.API\\Keylobby.API.DataAccessLayer\\Keylobby.API.DataAccessLayer.csproj": {}
   },
   "projects": {
-    "c:\\PARTBNB\\Keylobby.API\\Keylobby.API.DataAccessLayer\\Keylobby.API.DataAccessLayer.csproj": {
+    "C:\\PARTBNB\\Keylobby.API\\Keylobby.API.DataAccessLayer\\Keylobby.API.DataAccessLayer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\PARTBNB\\Keylobby.API\\Keylobby.API.DataAccessLayer\\Keylobby.API.DataAccessLayer.csproj",
+        "projectUniqueName": "C:\\PARTBNB\\Keylobby.API\\Keylobby.API.DataAccessLayer\\Keylobby.API.DataAccessLayer.csproj",
         "projectName": "Keylobby.API.DataAccessLayer",
-        "projectPath": "c:\\PARTBNB\\Keylobby.API\\Keylobby.API.DataAccessLayer\\Keylobby.API.DataAccessLayer.csproj",
+        "projectPath": "C:\\PARTBNB\\Keylobby.API\\Keylobby.API.DataAccessLayer\\Keylobby.API.DataAccessLayer.csproj",
         "packagesPath": "C:\\Users\\Benjamin\\.nuget\\packages\\",
-        "outputPath": "c:\\PARTBNB\\Keylobby.API\\Keylobby.API.DataAccessLayer\\obj\\",
+        "outputPath": "C:\\PARTBNB\\Keylobby.API\\Keylobby.API.DataAccessLayer\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
