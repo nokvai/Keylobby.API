@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="27px" height="27px" viewBox="0 0 27 27" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 54.1 (76490) - https://sketchapp.com -->
+    <title>fb</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-2" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Homepage_l" transform="translate(-1167.000000, -4817.000000)">
+            <g id="fb" transform="translate(1168.000000, 4818.000000)">
+                <ellipse id="base" stroke="#FFFFFF" cx="12.4878049" cy="12.5" rx="12.4878049" ry="12.5"></ellipse>
+                <path d="M15.6097561,9.17816162 L14.3720223,9.19291178 C14.3720223,9.19291178 13.1053036,9.01392619 13.1053036,10.1666667 L13.1053036,10.8333333 L14.9733057,10.8333333 L14.9733057,12.8333333 L13.1053036,12.8333333 L13.1053036,17.5 L11.2373015,17.5 L11.2373015,12.8333333 L10.6146341,12.8333333 L10.6146341,10.8333333 L11.2373015,10.8333333 L11.2373015,10.1666667 C11.5129084,8.61702128 12.1389783,7.5 13.727971,7.5 C14.1669004,7.5 15.0923951,7.52659574 15.5959731,7.5 L15.6097561,9.17816162 Z" id="icon" fill="#FFFFFF"></path>
+            </g>
+        </g>
+    </g>
+</svg>

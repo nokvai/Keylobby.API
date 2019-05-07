@@ -14,14 +14,14 @@ namespace Keylobby.API.Configs
 
         public static IApplicationBuilder RegisterSpaStaticFiles(this IApplicationBuilder app)
         {
-            app.UseSpaStaticFiles(new StaticFileOptions
-            {
-                FileProvider = new PhysicalFileProvider(Path.Combine(Directory.GetCurrentDirectory(), "AdminApp/dist"))
-            });
+            //app.UseSpaStaticFiles(new StaticFileOptions
+            //{
+            //    FileProvider = new PhysicalFileProvider(Path.Combine(Directory.GetCurrentDirectory(), "AdminApp/dist"))
+            //});
 
             app.UseSpaStaticFiles(new StaticFileOptions
             {
-                FileProvider = new PhysicalFileProvider(Path.Combine(Directory.GetCurrentDirectory(), "ClientApp/dist"))
+                FileProvider = new PhysicalFileProvider(Path.Combine(Directory.GetCurrentDirectory(), "KeylobbyApp/dist"))
             });
 
             return app;

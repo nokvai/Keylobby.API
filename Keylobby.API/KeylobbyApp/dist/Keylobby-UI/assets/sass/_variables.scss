@@ -1,0 +1,25 @@
+// Default Style Settings
+// Use this code to omport to a component:
+//  @import '~assets/sass/variables';
+
+// Styles from the template
+@import './typography';
+
+// $white: $color-white;
+
+// // Properties
+// $borderColor: #e6e6e6;
+
+// // Footer
+// $footerColor: #202328;
+// $footerSeparatorColor: #e6e6e6;
+// $footerHeaderLinkColor: #d1d1d1;
+// $footerListLinkColor: #d1d1d1;
+// $footerLinkSeparatorColor: #d1d1d1;
+
+$templateDefaultFont: 'Segoe UI', Arial, sans-serif;
+$fontDefault: 'Helvetica', Arial, sans-serif;
+$fontRoboto: 'Roboto', Arial, sans-serif;
+$helveticaRegular: 'helveticaregular', Arial, 'Lucida Grande', sans-serif;
+$helveticaBold: 'helvetica', Arial, 'Lucida Grande', sans-serif;
+$helveticaLight: 'helveticalight', Arial, 'Lucida Grande', sans-serif;

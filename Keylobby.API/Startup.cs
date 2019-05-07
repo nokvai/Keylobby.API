@@ -41,6 +41,8 @@ namespace Keylobby.API
 
             services.AddTransient<IEmailSender, AuthMessageSender>();
 
+            services.AddSpaStaticFiles(configuration => { configuration.RootPath = "KeyLobbyApp/dist"; });
+
             services.RegisterGzip();
 
             services.RegisterMvc();
@@ -88,6 +90,7 @@ namespace Keylobby.API
             app.UseHsts();
             app.UseResponseCompression();
             app.UseStaticFiles();
+            app.RegisterSpaStaticFiles();
             app.UseHttpsRedirection();
             app.UseStatusCodePages();
 
