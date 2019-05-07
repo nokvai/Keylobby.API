@@ -17,3 +17,4 @@ C:\PARTBNB\Keylobby.API\Keylobby.API.Identity.DataAccessLayer\obj\Debug\netcorea
 C:\PARTBNB\Keylobby.API\Keylobby.API.Identity.DataAccessLayer\obj\Debug\netcoreapp2.2\Keylobby.API.Identity.DataAccessLayer.AssemblyInfo.cs
 C:\PARTBNB\Keylobby.API\Keylobby.API.Identity.DataAccessLayer\obj\Debug\netcoreapp2.2\Keylobby.API.Identity.DataAccessLayer.dll
 C:\PARTBNB\Keylobby.API\Keylobby.API.Identity.DataAccessLayer\obj\Debug\netcoreapp2.2\Keylobby.API.Identity.DataAccessLayer.pdb
+C:\PARTBNB\Keylobby.API\Keylobby.API.Identity.DataAccessLayer\obj\Debug\netcoreapp2.2\Keylobby.API.Identity.DataAccessLayer.csprojAssemblyReference.cache

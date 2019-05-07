@@ -91,9 +91,12 @@ namespace Keylobby.API
 
                 // app.RegisterSwagger();
 
-                app.UseCors("AllowAllHeaders");
-                app.UseDeveloperExceptionPage();
+               
+              
             }
+
+            app.UseCors("AllowAllHeaders");
+            app.UseDeveloperExceptionPage();
 
             app.UseHsts();
             app.UseResponseCompression();
