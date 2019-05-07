@@ -18,10 +18,7 @@ namespace Keylobby.API.Configs
 
             app.MapWhen(
                     context => client == context.Request.Host.Host,
-                    clientConfig => ConfigureSpa(clientConfig, "ClientApp"))
-                .MapWhen(
-                    context => admin == context.Request.Host.Host,
-                    adminConfig => ConfigureSpa(adminConfig, "AdminApp"));
+                    clientConfig => ConfigureSpa(clientConfig, "KeylobbyApp"));
 
             return app;
         }

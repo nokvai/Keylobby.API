@@ -10,6 +10,8 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Options;
 using Keylobby.API.Identity.BusinessLogicLayer.Interface;
 using Keylobby.API.Identity.BusinessLogicLayer.Service;
+using Microsoft.Extensions.FileProviders;
+using System.IO;
 
 namespace Keylobby.API
 {
@@ -27,9 +29,7 @@ namespace Keylobby.API
 
             var builder = new ConfigurationBuilder()
                .AddJsonFile("Manifest\\apiLastUpdated.json", false, true)
-               .AddJsonFile("Manifest\\manifest.json", false, true)
-               .AddJsonFile("Manifest\\subDomains.json", false, true);
-
+               .AddJsonFile("Manifest\\manifest.json", false, true);
             _jsonFiles = builder.Build();
 
             _environment = _jsonFiles["Info:Environment"];
@@ -41,7 +41,7 @@ namespace Keylobby.API
 
             services.AddTransient<IEmailSender, AuthMessageSender>();
 
-            services.AddSpaStaticFiles(configuration => { configuration.RootPath = "KeyLobbyApp/dist"; });
+           
 
             services.RegisterGzip();
 
@@ -69,6 +69,8 @@ namespace Keylobby.API
             });
 
             services.AddMvc();
+
+            services.AddSpaStaticFiles(configuration => { configuration.RootPath = $"KeylobbyApp/dist/Keylobby-UI"; });
         }
 
         public void Configure(IApplicationBuilder app, IHostingEnvironment env, IOptions<List<UrlRedirects>> urls, IOptions<SubDomains> subDomains)
@@ -76,16 +78,22 @@ namespace Keylobby.API
             app.RegisterUrlRedirects(urls);
             app.UseAuthentication();
 
-                if (_environment == Keylobby.API.DataAccessLayer.Models.Environment.Production)
-                {
-                    app.RegisterNonWwwRedirect();
-                }
-                else
-                {
-                    app.UseCors("AllowAllHeaders");
+            if (_environment == Environment.Production)
+            {
+                app.RegisterNonWwwRedirect();
+            }
+            else
+            {
 
-                    app.UseDeveloperExceptionPage();
-                }
+                //INFO: Don't enable this on production for security purposes:
+
+                // app.UseSwaggerAuthentication();
+
+                // app.RegisterSwagger();
+
+                app.UseCors("AllowAllHeaders");
+                app.UseDeveloperExceptionPage();
+            }
 
             app.UseHsts();
             app.UseResponseCompression();
@@ -94,12 +102,25 @@ namespace Keylobby.API
             app.UseHttpsRedirection();
             app.UseStatusCodePages();
 
-            if (env.IsDevelopment() == false) {
+            if (env.IsDevelopment() == false)
+            {
                 app.RegisterSslRequired();
                 app.UseHttpsRedirection();
             }
 
             app.UseMvc();
+            app.UseSpa(spa =>
+            {
+                spa.Options.SourcePath = $"KeylobbyApp";
+                spa.Options.DefaultPageStaticFileOptions = new StaticFileOptions
+                {
+                    FileProvider =
+                        new PhysicalFileProvider(Path.Combine(Directory.GetCurrentDirectory(), $"KeylobbyApp/dist/Keylobby-UI"))
+                };
+
+            });
+
+
         }
     }
 }

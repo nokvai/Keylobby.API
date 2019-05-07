@@ -21,7 +21,7 @@ namespace Keylobby.API.Configs
 
             app.UseSpaStaticFiles(new StaticFileOptions
             {
-                FileProvider = new PhysicalFileProvider(Path.Combine(Directory.GetCurrentDirectory(), "KeylobbyApp/dist"))
+                FileProvider = new PhysicalFileProvider(Path.Combine(Directory.GetCurrentDirectory(), "KeylobbyApp/dist/Keylobby-UI"))
             });
 
             return app;

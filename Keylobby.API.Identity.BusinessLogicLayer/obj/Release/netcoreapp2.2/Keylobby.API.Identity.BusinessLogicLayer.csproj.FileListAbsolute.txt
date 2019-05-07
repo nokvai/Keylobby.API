@@ -23,14 +23,8 @@ C:\PARTBNB\Keylobby.API\Keylobby.API.Identity.BusinessLogicLayer\bin\Release\net
 C:\PARTBNB\Keylobby.API\Keylobby.API.Identity.BusinessLogicLayer\bin\Release\netcoreapp2.2\Keylobby.API.Identity.BusinessLogicLayer.pdb
 C:\PARTBNB\Keylobby.API\Keylobby.API.Identity.BusinessLogicLayer\bin\Release\netcoreapp2.2\Keylobby.API.DataAccessLayer.dll
 C:\PARTBNB\Keylobby.API\Keylobby.API.Identity.BusinessLogicLayer\bin\Release\netcoreapp2.2\Keylobby.API.Identity.DataAccessLayer.dll
-C:\PARTBNB\Keylobby.API\Keylobby.API.Identity.BusinessLogicLayer\bin\Release\netcoreapp2.2\Microsoft.AspNetCore.Http.Abstractions.dll
-C:\PARTBNB\Keylobby.API\Keylobby.API.Identity.BusinessLogicLayer\bin\Release\netcoreapp2.2\Microsoft.Extensions.Options.dll
-C:\PARTBNB\Keylobby.API\Keylobby.API.Identity.BusinessLogicLayer\bin\Release\netcoreapp2.2\Newtonsoft.Json.dll
 C:\PARTBNB\Keylobby.API\Keylobby.API.Identity.BusinessLogicLayer\bin\Release\netcoreapp2.2\Keylobby.API.DataAccessLayer.pdb
 C:\PARTBNB\Keylobby.API\Keylobby.API.Identity.BusinessLogicLayer\bin\Release\netcoreapp2.2\Keylobby.API.Identity.DataAccessLayer.pdb
-C:\PARTBNB\Keylobby.API\Keylobby.API.Identity.BusinessLogicLayer\bin\Release\netcoreapp2.2\Microsoft.AspNetCore.Http.Abstractions.xml
-C:\PARTBNB\Keylobby.API\Keylobby.API.Identity.BusinessLogicLayer\bin\Release\netcoreapp2.2\Microsoft.Extensions.Options.xml
-C:\PARTBNB\Keylobby.API\Keylobby.API.Identity.BusinessLogicLayer\bin\Release\netcoreapp2.2\Newtonsoft.Json.xml
 C:\PARTBNB\Keylobby.API\Keylobby.API.Identity.BusinessLogicLayer\obj\Release\netcoreapp2.2\Keylobby.API.Identity.BusinessLogicLayer.csprojAssemblyReference.cache
 C:\PARTBNB\Keylobby.API\Keylobby.API.Identity.BusinessLogicLayer\obj\Release\netcoreapp2.2\Keylobby.API.Identity.BusinessLogicLayer.csproj.CoreCompileInputs.cache
 C:\PARTBNB\Keylobby.API\Keylobby.API.Identity.BusinessLogicLayer\obj\Release\netcoreapp2.2\Keylobby.API.Identity.BusinessLogicLayer.AssemblyInfoInputs.cache
